@@ -14,6 +14,9 @@
 		D320AD4824DFA01600A8E406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D320AD4624DFA01600A8E406 /* Main.storyboard */; };
 		D320AD4A24DFA01700A8E406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D320AD4924DFA01700A8E406 /* Assets.xcassets */; };
 		D320AD4D24DFA01700A8E406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D320AD4B24DFA01700A8E406 /* LaunchScreen.storyboard */; };
+		D3D446BC24E7B477006931A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D446BB24E7B477006931A5 /* LoginViewController.swift */; };
+		D3D446BF24E7B4A4006931A5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D446BE24E7B4A4006931A5 /* RegisterViewController.swift */; };
+		D3D446C124E7B4B6006931A5 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D446C024E7B4B6006931A5 /* ForgotPasswordViewController.swift */; };
 		D3D8FB7B24E24C410013C505 /* MemberProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D8FB7A24E24C410013C505 /* MemberProvider.swift */; };
 		D3D8FB7D24E3643E0013C505 /* MemberService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D8FB7C24E3643E0013C505 /* MemberService.swift */; };
 		D3E4705F24E365E6004D580D /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4705E24E365E6004D580D /* Member.swift */; };
@@ -31,6 +34,9 @@
 		D320AD4924DFA01700A8E406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D320AD4C24DFA01700A8E406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D320AD4E24DFA01700A8E406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D446BB24E7B477006931A5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D3D446BE24E7B4A4006931A5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D3D446C024E7B4B6006931A5 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		D3D8FB7A24E24C410013C505 /* MemberProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberProvider.swift; sourceTree = "<group>"; };
 		D3D8FB7C24E3643E0013C505 /* MemberService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberService.swift; sourceTree = "<group>"; };
 		D3E4705E24E365E6004D580D /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
@@ -77,6 +83,7 @@
 		D320AD3F24DFA01600A8E406 /* OAuth */ = {
 			isa = PBXGroup;
 			children = (
+				D3D446BD24E7B480006931A5 /* Controllers */,
 				D3D8FB7924E24BF10013C505 /* Api */,
 				D3D8FB7824E24B0E0013C505 /* Model */,
 				D320AD4024DFA01600A8E406 /* AppDelegate.swift */,
@@ -88,6 +95,16 @@
 				D320AD4E24DFA01700A8E406 /* Info.plist */,
 			);
 			path = OAuth;
+			sourceTree = "<group>";
+		};
+		D3D446BD24E7B480006931A5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3D446BB24E7B477006931A5 /* LoginViewController.swift */,
+				D3D446BE24E7B4A4006931A5 /* RegisterViewController.swift */,
+				D3D446C024E7B4B6006931A5 /* ForgotPasswordViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D3D8FB7824E24B0E0013C505 /* Model */ = {
@@ -239,9 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D446BC24E7B477006931A5 /* LoginViewController.swift in Sources */,
 				D320AD4524DFA01600A8E406 /* ViewController.swift in Sources */,
 				D3E4705F24E365E6004D580D /* Member.swift in Sources */,
+				D3D446BF24E7B4A4006931A5 /* RegisterViewController.swift in Sources */,
 				D3D8FB7D24E3643E0013C505 /* MemberService.swift in Sources */,
+				D3D446C124E7B4B6006931A5 /* ForgotPasswordViewController.swift in Sources */,
 				D320AD4124DFA01600A8E406 /* AppDelegate.swift in Sources */,
 				D3D8FB7B24E24C410013C505 /* MemberProvider.swift in Sources */,
 				D320AD4324DFA01600A8E406 /* SceneDelegate.swift in Sources */,

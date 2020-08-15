@@ -7,5 +7,6 @@ target 'OAuth' do
 
   # Pods for OAuth
   pod 'Moya'
+  pod 'SwiftyJSON'
 
 end
